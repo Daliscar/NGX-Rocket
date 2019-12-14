@@ -7,7 +7,7 @@
       "skipInstall": false,
       "skipQuickstart": false,
       "initGit": true,
-      "appName": "Otti Panel",
+      "appName": "Funky Panel",
       "target": [
         "web"
       ],
@@ -24,7 +24,7 @@
         "lodash",
         "moment"
       ],
-      "projectName": "otti-panel",
+      "projectName": "Funky-panel",
       "packageManager": "npm",
       "mobile": [],
       "desktop": []

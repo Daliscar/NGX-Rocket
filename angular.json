@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "otti-panel": {
+    "Funky-panel": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -70,12 +70,12 @@
           "options": {
             "hmr": true,
             "hmrWarning": false,
-            "browserTarget": "otti-panel:build"
+            "browserTarget": "Funky-panel:build"
           },
           "configurations": {
             "production": {
               "hmr": false,
-              "browserTarget": "otti-panel:build:production"
+              "browserTarget": "Funky-panel:build:production"
             },
             "ci": {
               "progress": false
@@ -85,7 +85,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "otti-panel:build"
+            "browserTarget": "Funky-panel:build"
           }
         },
         "test": {
@@ -128,7 +128,7 @@
         }
       }
     },
-    "otti-panel-e2e": {
+    "Funky-panel-e2e": {
       "root": "e2e",
       "projectType": "application",
       "architect": {
@@ -136,7 +136,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "otti-panel:serve"
+            "devServerTarget": "Funky-panel:serve"
           }
         },
         "lint": {
@@ -153,5 +153,5 @@
       }
     }
   },
-  "defaultProject": "otti-panel"
+  "defaultProject": "Funky-panel"
 }

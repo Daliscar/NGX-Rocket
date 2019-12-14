@@ -1,4 +1,4 @@
-# Otti Panel
+# Funky Panel
 
 Welcome to the project documentation!
 
