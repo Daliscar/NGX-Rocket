@@ -20,12 +20,8 @@ describe('ShellComponent', () => {
         NgbModule,
         CoreModule
       ],
-      declarations: [
-        HeaderComponent,
-        ShellComponent
-      ]
-  })
-    .compileComponents();
+      declarations: [HeaderComponent, ShellComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {

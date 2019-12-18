@@ -16,8 +16,6 @@ import { QuoteService } from './quote.service';
     SharedModule,
     HomeRoutingModule
   ],
-  declarations: [
-    HomeComponent
-  ]
+  declarations: [HomeComponent]
 })
-export class HomeModule { }
+export class HomeModule {}

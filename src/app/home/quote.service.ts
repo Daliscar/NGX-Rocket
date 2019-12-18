@@ -10,15 +10,13 @@ const routes = {
 export interface RandomQuoteContext {
   // The quote's category: 'dev', 'explicit'...
   category: string;
-  
 }
 
 @Injectable({
   providedIn: 'root'
 })
 export class QuoteService {
-
-  constructor(private httpClient: HttpClient) { }
+  constructor(private httpClient: HttpClient) {}
 
   getRandomQuote(context: RandomQuoteContext): Observable<string> {
     return this.httpClient
@@ -29,5 +27,4 @@ export class QuoteService {
         catchError(() => of('Error, could not load joke :-('))
       );
   }
-
 }
