@@ -2,3 +2,10 @@
  * Global application theme.
  * Framework overrides and customization goes here.
  */
+
+.navbar-hidden {
+  display: none;
+}
+.navbar {
+  background-color: green;
+}
